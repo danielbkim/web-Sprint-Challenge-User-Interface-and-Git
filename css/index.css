@@ -74,7 +74,7 @@ p {
 .nav-container {
     display: flex;
     justify-content: space-evenly;
-    width: 100%;
+    width: 80%;
     margin: 4%;
     /* text-decoration: none; */
 }
@@ -92,6 +92,7 @@ p {
 
 .jumbo-image {
     width: 100%;
+    padding-bottom: 3%;
 }
 
 .top-content {
@@ -106,6 +107,10 @@ p {
     width: 48%;
     padding: 3% 0%;
     padding-bottom: 20px;  
+}
+
+.space {
+    padding-bottom: 3%;
 }
 
 .middle-content {
@@ -201,4 +206,15 @@ nav {
 nav a {
     /* color: white; */
     text-decoration: none;
+}
+
+.about-top-content {
+    width: 80%;
+    margin: 0 auto;
+    border-bottom: 1px dashed black;
+}
+
+.image-grid-container {
+    display: flex;
+    margin-top: 3%;
 }
