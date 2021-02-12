@@ -75,16 +75,18 @@ p {
 }
 
 .container {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
 }
 
 .nav-container {
     display: flex;
-    justify-content: space-evenly;
-    width: 80%;
-    margin: 4%;
+    justify-content: center;
+    /* width: 100%; */
+    /* margin: 4%; */
     /* text-decoration: none; */
+    width: 100%;
+    margin: 0 auto;
 }
 
 .lambda-logo {
@@ -107,14 +109,17 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    /* margin-bottom: 10%; */
     border-bottom: 1px dashed black;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 2%;
 }
 
 .top-content .text-container {
     width: 48%;
-    padding: 3% 0%;
-    padding-bottom: 20px;  
+    padding: 0% 0%;
+    margin: 0 auto;
 }
 
 .space {
@@ -122,8 +127,12 @@ p {
 }
 
 .middle-content {
-    margin-bottom: 20px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    margin-bottom: 0;
     border-bottom: 1px dashed black;
+    width: 80%;
+    padding: 2% 0;
 }
 
 .middle-content h2 {
@@ -139,7 +148,7 @@ p {
 
 .middle-content .boxes .box {
     width: 12.5%;
-    height: 100px;
+    height: 150px;
     /* background: black; */
     margin: 20px 2.5%;
     color: white;
@@ -181,8 +190,10 @@ p {
 
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
+    margin: 0 auto;
     justify-content: space-around;
+    padding: 2% 0;
+    width: 80%;
 }
 
 .bottom-content .text-container {
@@ -198,23 +209,26 @@ p {
 }
 
 footer {
-    width: 100%;
+    margin: 0 auto;
+    width: 80%;
     background: black;
 }
 
 nav {
-    width: 60%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
+    padding: 2% 2%;
+    font-size: 1.6rem;
 }
 
 nav a {
     /* color: white; */
     text-decoration: none;
 }
+
+
 
 .about-top-content {
     width: 80%;
@@ -223,12 +237,13 @@ nav a {
 }
 
 .about-middle-content {
+    border: 1px solid red;
     width: 80%;
     margin: 0 auto;
 }
 
 .image-grid-container {
-    /* border: 1px solid red; */
+    border: 1px solid red;
     display: flex;
     margin-top: 3%;
     /* width: 70%; */
@@ -239,7 +254,7 @@ nav a {
 
 .tile {
     border: 1px solid red;
-    width: 45%;
+    width: 35%;
     margin-top: 3%;
     border-bottom: 1px dashed black;
 }
@@ -250,7 +265,7 @@ nav a {
 }
 
 .tile img{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 100%;
     margin-bottom: 5%;
 }
@@ -264,3 +279,4 @@ nav a {
     color: black;
     font-size: 2rem;
 }
+
