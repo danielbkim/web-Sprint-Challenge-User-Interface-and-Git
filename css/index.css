@@ -67,8 +67,30 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 80%;
     margin: 0 auto;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 4%;
+}
+
+.lambda-logo {
+    width: 16%;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* align-items:stretch; */
+}
+
+.jumbo-image {
+    width: 100%;
 }
 
 .top-content {
