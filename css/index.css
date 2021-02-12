@@ -222,29 +222,37 @@ nav a {
     border-bottom: 1px dashed black;
 }
 
+.about-middle-content {
+    width: 80%;
+    margin: 0 auto;
+}
+
 .image-grid-container {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     margin-top: 3%;
     /* width: 70%; */
     justify-content: space-evenly;
     flex-wrap: wrap;
-
+    width: 100%;
 }
 
 .tile {
     border: 1px solid red;
-    width: 40%;
+    width: 45%;
     margin-top: 3%;
+    border-bottom: 1px dashed black;
 }
 
 .tile p{
     width: 100%;
+    margin-bottom: 5%;
 }
 
 .tile img{
     border: 1px solid red;
     width: 100%;
+    margin-bottom: 5%;
 }
 
 .learn-more {
@@ -252,4 +260,7 @@ nav a {
     border-radius: 10px;
     /* padding: 1rem; */
     text-decoration: none;
+    padding: 1% 4% 1% 4%;
+    color: black;
+    font-size: 2rem;
 }
